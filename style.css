@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color:rgb(238, 220, 220);
+}
+
+.menu{
+    background-color:black;
+}
+
+.menu ul{
+    display:flex;
+    padding-top:5px;
+    align-items: center;
+}
+
+.brand img{
+     width:40px;
+     height:40px;
+     margin-left: 30px;
+}
+
+.mp3{
+    color:white;
+    font-size:25px;
+    padding-left:8px;
+}
+
+.menu li{
+    color:white;
+    padding:5px;
+    font-size: 20px;
+}
+
+.home-elements{
+    display:flex;
+    margin-left:1000px;
+}
+
+.home-elements li{
+    padding-left: 40px;
+}
+
+.container{
+    width:75vw;
+    height:75vh;
+    margin:25px auto;
+    border-radius: 12px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    background:url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size:75vw 75vh;
+}
+
+.container h1{
+    margin:10px 30px;
+}
+
+.s-img{
+    width:50px;
+    height:50px;
+    margin:0 23px;
+    border-radius: 34px;
+}
+
+.songitem{
+    background-color:white;
+    color:black;
+    width:500px;
+    border-radius: 30px;
+    margin:5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.timestamp{
+    margin: 0 23px;
+    padding-left:10px;
+}
+
+.timestamp i {
+    cursor: pointer;
+    padding-left:10px;
+}
+
+.bottom{
+    background-color:rgb(1, 0, 0);
+    width:100vw;
+    height:90px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom input{
+    width:80vw;
+    cursor:pointer;
+    position:relative;
+    top:-10px;
+}
+
+.bottom .icons{
+    display:flex;
+    position:relative;
+    top:20px;
+    right:550px;
+}
+
+.bottom .icons i{
+    padding:10px;
+}
+
+.bottom .songInfo{
+    position:absolute;
+    left:7vw;
+    bottom:40px;
+
+}
+
+.songInfo #gif{
+    transition:opacity 0.4s ease-in;
+}
